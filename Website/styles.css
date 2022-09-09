@@ -92,3 +92,17 @@ canvas{
 html::-webkit-scrollbar {
     display: none;
 }
+
+.small-img {
+    max-width:90%;
+    max-height:auto;
+    float: left;
+    border: 5px solid #1f453b;
+    margin-left: 3vw;
+}
+
+.mailing-list-text {
+    font-size: larger;
+    text-decoration: underline;
+    margin-top: 15vh;
+}
