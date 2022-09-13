@@ -7,31 +7,129 @@
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         
     </head>
-    <body>
 
-        <div class="container" style="background-color: black; height: 100px; padding-top: 10px; padding-left: 10px; padding-bottom: 10px;">
-            <div class="container-item">
-                <img src="images/Official_Chapter_Logo (2).png" alt="Logo" style="max-width:100%; max-height: 100%; border: 1px solid; border-color: white;">
-            </div>
-            <div class="container-item" style="width: 100%; position: absolute;">
-                <div class="linkbox">
-                    <a class="link" href="contact.html" style="margin-right: 25px;">Contact Us</a>
+    <header>
+
+        <div class="container-fluid">
+            <div class="row" style="background-color: black;">
+                <div class="col-1 float-end">
+                    <img src="images/Official_Chapter_Logo (2).png" alt="Logo" class="logoIMG">
                 </div>
-                <div class="linkbox">
-                    <a class="link" href="achievements.html">Achievements</a>
+
+                <div class="col-10">
+                    <p id="headerText">Spartan Chapter of National Society of Black Physicists</p>
                 </div>
-                <div class="linkbox">
-                    <a class="link" href="aboutUs.html">About Us</a>
-                </div>
+            
+               <div class="col float-end" style="margin-top: 35px;">
+
+                <nav class="navbar bg-black">
+                    <div class="container-fluid" >
+                        <a class="navbar-brand" href="#"></a>
+                        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" style="border:1px solid white;">
+                            <div class="offcanvas-header" style="background-color: black">
+                              <img class="nav-image" src="images/Official_Chapter_Logo (2).png" alt="logo">
+                            </div>
+                            <div class="offcanvas-header" style="background-color: black;">
+                              <h5 class="offcanvas-title nav-text" id="offcanvasNavbarLabel" style="margin:auto;">NSBP Spartan Chapter</h5>
+                            </div>
+                            <div class="offcanvas-body" style="background-color: black;">
+                              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" href="index.html"><p class="nav-text">Home</p></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="aboutUs.html"><p class="nav-text">About Us</p></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="achievements.html"><p class="nav-text">Achievements</p></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="scholorships.html"><p class="nav-text">Scholarship Opportunities</p></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="contact.html"><p class="nav-text">Contact Us</p></a>
+                                </li>
+                                
+                                <!--Place Holder for Dropdown Menu-->
+
+                                <!--Place Holder for Search Bar-->
+
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </nav>
+                    </div>
+                </nav>
+
+               </div>
+
             </div>
         </div>
 
+    </header>
 
+    <body>
 
+      
+      <div class="outer-container">
+        <div id="particles-js"></div>
+        <div class="your-content" style="padding: 185px; justify-content: center; align-content: center;">
+          <p class="quotes" style="top: 100px; left: 100px;">"NSBP has brought me a sense of community" -Jay Colon</p>
+          <p class="quotes" style="top: 400px; left: 250px;">"I found my path through NSBP" -Example</p>
+          <p class="quotes" style="top: 700px; left: 150px;">"With NSBP, I found my home" -Example</p>
+          <img class="img fadein" src="images/sparticapation.png">
+          <p class="quotes" style="top: 100px; left: 1500px;">"NSBP has brought me a sense of community" -Jay Colon</p>
+          <p class="quotes" style="top: 400px; left: 1400px;">"I found my path through NSBP" -Example</p>
+          <p class="quotes" style="top: 700px; left: 1550px;">"With NSBP, I found my home" -Example</p>
+        </div>
+      </div>
 
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 text-center">
+            <h1 style="margin-top: 50px;text-decoration: underline;text-underline-offset: 15px; margin-bottom:30px;">What is NSBP?</h1>
+            <p>Founded in 1977 at Morgan State University, the National Society of Black Physicists was founded to promote the professional well-being of African American physicists and physics students within the international scientific community and within society at large. The organization seeks to develop and support efforts to increase opportunities for African Americans in physics and to increase their numbers and visibility of their scientific work. It also seeks to develop activities and programs that highlight and enhance the benefits of the scientific contributions that African American physicists provide for the international community. The society seeks to raise the general knowledge and appreciation of physics in the African American community. The National Society of Black Physicists is a not-for-profit 501c3 organization in accordance with the Internal Revenue Service.
+            </p>
+          </div>
+        </div>
+      </div>
 
+      <hr style="width:50%; margin-left:25% !important; margin-right:25% !important; border: 1px solid black;margin-bottom:-10px;"/>
+        
+      
+      <div class="container" >
+        <div class="row justify-content-center" style="margin:auto;">
+          <div class="col-12 text-center align-content-center">
+            <h1 style="margin-top: 50px;text-decoration: underline;text-underline-offset: 15px; margin-bottom:30px; text-align: center;">How do I join the Spartan Chapter of NSBP?</h1>
+            <div class="row">  
+              <div class="col-6">
+                <img class="small-img" src="images/PING_Group_Photo.png" alt="Group Pic">
+              </div>
+              <div class="col-6 align-items-center">
+                <p class="mailing-list-text">Join our Mailing List!</p>
+                <form>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email">
+                  <input type="submit" value="Submit">
+                  <p style="margin-bottom: -2px; margin-top:5px;">or</p>
+                  <p style="margin-bottom: -2px;">Contact our President:</p>
+                  <a href="harr1791@msu.edu">harr1791@msu.edu</a>
+                </form>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      
 
 
 
@@ -41,6 +139,11 @@
 
 
         
+        <script src="particles.js-master/particles.js"></script>
+        <script src="particles.js-master/demo/js/app.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
     </body>
 
 
