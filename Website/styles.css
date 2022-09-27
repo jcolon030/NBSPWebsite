@@ -155,3 +155,18 @@ html::-webkit-scrollbar {
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
 }
+
+.headshot {
+    height: 25%;
+    width: 25%;
+    border: 3px solid #1f453b;
+    float: left;
+    margin-right: 10px;
+}
+
+.headshot-text {
+    font-size: medium;
+    text-align: center;
+    margin-top: 3%;
+
+}
